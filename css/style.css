@@ -28,7 +28,7 @@
 }
 
 .img_wrap:hover::after {
-    transition: all 1s ease-in-out;
+    transition: all .7s ease-in-out;
     background-color: rgba(240, 248, 255, 0);
     
 }
@@ -40,8 +40,220 @@
 }
 
 .ms_border-hover:hover {
-    transition: all 1s ease-in-out;
+    transition: all .7s ease-in-out;
     border-color: rgb(0,114,206);
     z-index: 10;
     box-shadow: 0px 12px 35px -5px rgba(0,0,0,0.43);
+}
+
+.ms_border-hover-red {
+    border: 3px solid rgba(255, 255, 255, 0);
+    border-radius: 30px;
+    z-index: 10;
+}
+
+.ms_border-hover-red:hover {
+    transition: all .7s ease-in-out;
+    border-color: rgb(220,53,69);
+    z-index: 10;
+    box-shadow: 0px 12px 35px -5px rgba(0,0,0,0.43);
+}
+
+.btn_wrap {
+    width: 129px;
+    border: 3px solid rgba(255, 255, 255, 0);
+    border-radius: 40px;
+}
+
+.btn_wrap:hover {
+    transition: all .7s ease-in-out;
+    border-color: rgb(0,114,206);
+}
+
+.btn_wrap-2 {
+    width: 177px;
+    border: 3px solid rgba(255, 255, 255, 0);
+    border-radius: 40px;
+}
+
+.btn_wrap-2:hover {
+    transition: all .7s ease-in-out;
+    border-color: rgb(0,114,206);
+}
+
+.ms_img-bg {
+    background-image: url(../img/this-month-on-playstation-june-homepage-background-desktop-01-en-23may22.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.img_wrap-2 {
+    max-width: 400px;
+}
+
+.ms_btn-mw {
+    max-width: 200px;
+}
+
+.ms_btn-mw-2 {
+    max-width: 220px;
+    color: blue;
+    border-color: blue;
+}
+
+.ms_mw-p {
+    max-width: 500px;
+}
+
+.ms_img-bg-elden {
+    background-image: url(../img/elden-ring-hero-banner-desktop-01-en-24jan22.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.ms_offset-height {
+    min-height: 300px;
+}
+
+.ms_bg-black {
+    background-color: black;
+}
+
+.ms_card-wrap {
+    width: 185px;
+    height: 185px;
+}
+
+.ms_bg-card-horizon {
+    background-image: url(../img/horizon-forbidden-west-keyart-01-12may21$en.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 10px;
+}
+
+[class*="ms_bg-card"]:hover {
+    transition: all 0.2s ease-in-out;
+    filter: blur(.5px);
+    box-shadow: -5px 7px 42px 4px rgb(215, 128, 255);
+    border: 2px solid rgb(255, 255, 255);
+}
+
+.ms_bg-card-elden {
+    background-image: url(../img/elden-ring-store-art-01-ps5-03sep21$en.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 10px;
+}
+
+.ms_bg-card-uncharted {
+    background-image: url(../img/uncharted-legacy-of-thieves-pack-01-ps5-14apr22$en.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 10px;
+}
+
+.ms_bg-card-wonderland {
+    background-image: url(../img/tiny-tinas-wonderland-storeart-01-en-29oct21.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 10px;
+}
+
+.ms_bg-card-sifu {
+    background-image: url(../img/sifu-store-art-01-en-9mar22.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 10px;
+}
+
+.ms_bg-card-dying {
+    background-image: url(../img/dying-light-2-stay-human-store-art-01-03nov21$en.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 10px;
+}
+
+.ms_bg-card-lego {
+    background-image: url(../img/lego-star-wars-skywalker-saga-storeart-01-en-11feb22.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 10px;
+}
+
+.ms_bg-card-sniper {
+    background-image: url(../img/sniper-elite-5-store-art-01-en-25apr22.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 10px;
+}
+
+.ms_bg-card-ghost {
+    background-image: url(../img/ghostwire-tokyo-store-art-01-ps5-en-08jun20.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 10px;
+}
+
+.ms_bg-card-gt {
+    background-image: url(../img/gran-turismo-7-keyart-01-en-23oct20.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 10px;
+}
+
+
+.ms_bg-card-deathloop {
+    background-image: url(../img/deathloop-store-art-01-ps4-ps5-en-20nov20.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 10px;
+}
+
+
+.ms_bg-card-quarry {
+    background-image: url(../img/the-quarry-store-artwork-01-en-28apr22.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 10px;
+}
+
+.ms_mh-img {
+    max-height: 243px;
+}
+
+.ms_bg-img-gow {
+    background-image: url(../img/ps-plus-this-month-on-plus-background-desktop-en-02-25mar21.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.ms_bg-img-merchandise {
+    background-image: url(../img/ps-gear-evergreen-background-block-desktop-01-en-27may22.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.ms_card-merchandise {
+    background-color: rgba(0, 0, 0, 0.144);
+}
+
+.ms_card-overlay {
+    background-color: rgba(0, 0, 0, 0.031);
+    border-radius: 50px;
 }
